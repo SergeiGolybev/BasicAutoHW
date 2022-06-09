@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class CashbackHackServiceTest {
 
-    @Test
+    @org.testng.annotations.Test
     public void shouldCalculateUnderLimit() {
 
             CashbackHackService service = new CashbackHackService();
@@ -16,7 +16,7 @@ public class CashbackHackServiceTest {
             Assert.assertEquals(actual, expected);
         }
 
-        @Test
+        @org.testng.annotations.Test
         public void shouldCalculateOverLimit() {
             CashbackHackService service = new CashbackHackService();
 
@@ -25,7 +25,7 @@ public class CashbackHackServiceTest {
             Assert.assertEquals(actual, expected);
         }
 
-        @Test
+        @org.testng.annotations.Test
         public void shouldCalculateLimit() {
             CashbackHackService service = new CashbackHackService();
 
@@ -35,7 +35,7 @@ public class CashbackHackServiceTest {
             Assert.assertEquals(actual, expected);
         }
 
-    @Test
+    @org.testng.annotations.Test
     public void shouldCalculateNoAmount() {
         CashbackHackService service = new CashbackHackService();
 
